@@ -20,6 +20,8 @@ function BoxClick(e) {
             a.style.display = "block";
             let index = document.getElementById('main');
             index.style.zIndex = -1;
+            let btn=document.getElementById('btn1');
+            btn.style.zIndex = -1;
         }
         currplayer = currplayer === O_text ? x_text : O_text;
     }
