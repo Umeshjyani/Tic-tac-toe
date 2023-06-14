@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <h1 style="text-align: center; margin-bottom: 60px; margin-top: 60px;" id="text">Click On Start To Play</h1>
+        <div class="main" id="main">
+            <div class="">
+                <div class='flex'>
+                    <span class='borderight borderbottom box' id="0" onclick="BoxClick(event)"></span>
+                    <span class='borderight borderbottom box' id="1" onclick="BoxClick(event)"></span>
+                    <span class='borderbottom box' id="2" onclick="BoxClick(event)"></span>
+                </div>
+                <div class='flex'>
+                    <div class='borderight borderbottom box' id="3" onclick="BoxClick(event)"></div>
+                    <div class='borderight borderbottom box' id="4" onclick="BoxClick(event)"></div>
+                    <div class='borderbottom box' id="5" onclick="BoxClick(event)"></div>
+                </div>
+                <div class='flex'>
+                    <div class='borderight box' id="6" onclick="BoxClick(event)"></div>
+                    <div class='borderight box' id="7" onclick="BoxClick(event)"></div>
+                    <div class='box' id="8" onclick="BoxClick(event)"></div>
+                </div>
+            <div class="line" id="line">
+            </div>
+            </div> 
+        </div>
+    <div class="btnflex">
+        <button class="btn" onClick="start()">Start </button>
+        <button class="btn" onClick="replay()">Replay </button>
+    </div>
+</div>
+</body>
+<script src="assets/javascript/script.js"></script>
+
+</html>

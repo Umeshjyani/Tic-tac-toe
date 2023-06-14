@@ -1,0 +1,66 @@
+body {
+  background-color: lightcoral;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 500px;
+  height: 300px;
+  box-shadow: 0 10px 50px 0 rgba(14, 13, 13, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  background-color: rgb(232 126 118);
+  z-index: -1;
+}
+
+.borderight {
+  border-right: 2px solid black;
+}
+
+.borderbottom {
+  border-bottom: 2px solid black;
+}
+
+.box {
+  width: 100px;
+  height: 80px;
+  display: flex;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  width: 1px;
+  height: 250px;
+  background-color: black;
+  display: none;
+  position: absolute;
+  top: 23px;
+  left: 50%;
+  transition: 0.7s;
+}
+
+.btn{
+  padding: 15px 30px 15px 30px;
+  margin-top: 40px;
+  background-color:black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btnflex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
